@@ -1,0 +1,93 @@
+# Bookstore Management System (SQL Project)
+
+## 📌 Project Overview
+The Bookstore Management System is a database-driven project developed using PostgreSQL.  
+It focuses on designing a relational database, importing book data, and performing various SQL operations for data management and analysis.
+
+This project demonstrates practical SQL skills such as table creation, data insertion, querying, and handling real-world database issues.
+
+---
+
+## 🛠️ Technologies Used
+- PostgreSQL
+- pgAdmin
+- SQL
+
+
+---
+
+## 🗃️ Datasets Description
+
+### 📘 Books.csv
+Contains information about books available in the bookstore.
+- Book ID
+- Title
+- Author
+- Price
+- Publication Year
+- Category
+
+### 👤 Customers.csv
+Stores customer-related details.
+- Customer ID
+- Customer Name
+- Email
+- City
+
+### 🧾 Orders.csv
+Stores order transaction details.
+- Order ID
+- Customer ID
+- Book ID
+- Order Date
+- Quantity
+- Total Amount
+
+---
+
+## 🔗 Database Relationships
+- One customer can place **multiple orders**
+- One book can appear in **multiple orders**
+- Relationships implemented using **foreign keys**
+
+---
+
+## 🔍 SQL Queries Implemented
+Using the above datasets, the following queries are implemented:
+
+- Retrieve all books available in the store
+- Find customers who placed orders
+- Display order details with customer and book information (JOINs)
+- Calculate total sales and revenue
+- Find top-selling books
+- Group and filter data using `GROUP BY`, `HAVING`
+- Perform CRUD operations on tables
+
+---
+
+## 🚀 How to Run the Project
+1. Create a new database in PostgreSQL.
+2. Execute `schema.sql` to create tables.
+3. Import CSV files (`Books.csv`, `Customers.csv`, `Orders.csv`) using **pgAdmin Import/Export Tool**.
+4. Execute `queries.sql` to run SQL queries.
+
+---
+
+## 🎯 Learning Outcomes
+- Hands-on experience with relational database design
+- Working with multiple related datasets
+- Writing complex SQL queries using JOINs and aggregates
+- Understanding real-world database relationships
+- Handling CSV import and permission-related issues
+
+---
+
+## 👩‍💻 Author
+**Shubhangi Herode**
+
+---
+
+## 📌 Note
+This project is created for learning and academic purposes.  
+Online resources were referred to understand concepts, and the implementation was done independently.
+
